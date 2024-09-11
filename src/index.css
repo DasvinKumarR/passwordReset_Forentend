@@ -1,0 +1,19 @@
+.forgotHeading{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.email-label{
+  margin-bottom: 8px;
+}
+.email-text{
+  margin-bottom: 20px;
+}
+.homePage-title{
+  margin-top: 20px;
+}
+a{
+  text-decoration: none;
+}
+.password-text{
+  margin-bottom: 15px;
+}
