@@ -14,7 +14,7 @@ const ResetPassword = () => {
     const handleSubmit = async (e) => {
         e.preventDefault();
         try {
-            await axios.post(`http://localhost:5000/reset-password/${token}`, { password });
+            await axios.post(`https://passwordreset-backend-95j4.onrender.com/reset-password/${token}`, { password });
             toast('Password successfully reset');
         } catch (error) {
             toast('Error resetting password');

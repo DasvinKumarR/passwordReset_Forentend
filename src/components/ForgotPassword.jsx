@@ -11,7 +11,7 @@ const ForgotPassword = () => {
     const handleSubmit = async (e) => {
         e.preventDefault();
         try {
-            await axios.post(`http://localhost:5000/forgot-password`, { email });
+            await axios.post(`https://passwordreset-backend-95j4.onrender.com/forgot-password`, { email });
             toast("Password reset email sent");
         } catch (error) {
             toast("Error sending email");
